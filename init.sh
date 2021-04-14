@@ -49,6 +49,5 @@ sudo npm install -g yarn -y
 
 ## finalization, update and cleaning ##
 sudo apt update && sudo apt dist-upgrade -y
-flatpak update
 sudo apt autoclean
 sudo apt autoremove -y

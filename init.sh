@@ -51,6 +51,9 @@ sudo npm install -g yarn -y
 sudo rm /etc/apt/preferences.d/nosnap.pref
 sudo apt install snapd
 
+## install vs code with snap ##
+sudo snap install code --classic
+
 ## install brave browser ##
 sudo apt install apt-transport-https curl
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg

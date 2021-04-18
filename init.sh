@@ -60,6 +60,9 @@ sudo snap install brave
 ## install insomnia with snap ##
 sudo snap install insomnia
 
+## install htop with snap ##
+sudo snap install htop
+
 ## finalization, update and cleaning ##
 sudo apt update && sudo apt dist-upgrade -y
 sudo apt autoclean

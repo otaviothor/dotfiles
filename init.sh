@@ -57,6 +57,9 @@ sudo snap install code --classic
 ## install brave browser with snap ##
 sudo snap install brave
 
+## install insomnia with snap ##
+sudo snap install insomnia
+
 ## finalization, update and cleaning ##
 sudo apt update && sudo apt dist-upgrade -y
 sudo apt autoclean

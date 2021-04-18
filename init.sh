@@ -47,6 +47,10 @@ sudo rm xampp-installer.run
 ## install yarn ##
 sudo npm install -g yarn -y
 
+## install snap ##
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo apt install snapd
+
 ## finalization, update and cleaning ##
 sudo apt update && sudo apt dist-upgrade -y
 sudo apt autoclean

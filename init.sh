@@ -54,13 +54,8 @@ sudo apt install snapd
 ## install vs code with snap ##
 sudo snap install code --classic
 
-## install brave browser ##
-sudo apt install apt-transport-https curl
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-sudo apt update
-sudo apt install brave-browser
-
+## install brave browser with snap ##
+sudo snap install brave
 
 ## finalization, update and cleaning ##
 sudo apt update && sudo apt dist-upgrade -y

@@ -16,7 +16,7 @@ sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/cache/apt/archives/lock
 
 ## update repository ##
-sudo apt update -y
+sudo apt update
 
 ## setting nodejs repository ##
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -45,7 +45,7 @@ sudo ./xampp-installer.run
 sudo rm xampp-installer.run
 
 ## install yarn ##
-sudo npm install -g yarn -y
+sudo npm install -g yarn
 
 ## install snap ##
 sudo rm /etc/apt/preferences.d/nosnap.pref
@@ -64,6 +64,6 @@ sudo snap install insomnia
 sudo snap install htop
 
 ## finalization, update and cleaning ##
-sudo apt update && sudo apt dist-upgrade -y
+sudo apt update && sudo apt dist-upgrade
 sudo apt autoclean
-sudo apt autoremove -y
+sudo apt autoremove
